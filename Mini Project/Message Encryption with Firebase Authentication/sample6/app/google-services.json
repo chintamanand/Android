@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "779578191900",
+    "firebase_url": "https://sample1-cbc0a.firebaseio.com",
+    "project_id": "sample1-cbc0a",
+    "storage_bucket": "sample1-cbc0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779578191900:android:47c6263f1c944a4f",
+        "android_client_info": {
+          "package_name": "com.example.mahe.firebaseauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779578191900-4d3nngr7emkfvv957k2ik6nh4shr392a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXfp1KuXIy9azWJyyE98nrquJ-ndoor_c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779578191900:android:ef03c13c11040099",
+        "android_client_info": {
+          "package_name": "com.example.mahe.myapplication2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779578191900-4d3nngr7emkfvv957k2ik6nh4shr392a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXfp1KuXIy9azWJyyE98nrquJ-ndoor_c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

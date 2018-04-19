@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FirebaseAuthentication</string>
+    <string name="n1">Enter Email</string>
+    <string name="n2">Enter password</string>
+    <string name="n3">Register</string>
+    <string name="n4">FireBase Authentication</string>
+    <string name="n5">Already Registered? Sign in Here</string>
+    <string name="n6">SignIn</string>
+    <string name="n7">UserName :</string>
+    <string name="n8">Password:</string>
+    <string name="n9">Enter Gmail</string>
+    <string name="n10">Enter Password</string>
+    <string name="n11">Forgot Password??</string>
+    <string name="n12">User Login</string>
+    <string name="n13">User Registration</string>
+    <string name="na">Not Registred???</string>
+    <string name="nb">Verify Your Email</string>
+    <string name="a">LOGOUT</string>
+    <string name="b">Account Not Verified</string>
+    <string name="c">Account Status : </string>
+    <string name="d">Account not Verified</string>
+    <string name="e">Encryption</string>
+    <string name="e1">Encryption </string>
+    <string name="f">Decryption</string>
+    <string name="g">Enter ur Message </string>
+    <string name="h">Encrypt</string>
+    <string name="h1">Decrypt</string>
+    <string name="i">Processed Message</string>
+    <string name="a1">AES:- </string>
+    <string name="b1">DES:- </string>
+    <string name="m5">MD5:- </string>
+    <string name="rs">RSA:- </string>
+    <string name="rp1">Reset Password</string>
+    <string name="b2">Back</string>
+    <string name="rp2">    To reset Password,enter your Email,press the Button and check the mail to follow instructions</string>
+</resources>
