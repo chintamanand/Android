@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Student Mangement System</string>
+    <string name="text2">Password</string>
+    <string name="text1">Username</string>
+    <string name="text3">Submit</string>
+    <string name="t1">Student Rollnum</string>
+    <string name="t2">Student Name</string>
+    <string name="t3">Student Age</string>
+    <string name="t4">Student Marks</string>
+    <string name="t5">Principle Home Page</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="t6">Student Management Portal</string>
+    <string name="t7">Anand Junior College</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
