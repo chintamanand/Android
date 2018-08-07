@@ -1,6 +1,4 @@
 package com.example.mahe.facerecognition1;
-
-
 import android.app.AlertDialog;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -79,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             FaceDetector faceDetector = new
                     FaceDetector.Builder(getApplicationContext()).setTrackingEnabled(false)
                     .build();
-	    //A detector’s isOperational method can be used to check if the required native library is currently available
+	    //A detectorâ€™s isOperational method can be used to check if the required native library is currently available
             if(!faceDetector.isOperational()){
                 new AlertDialog.Builder(getApplicationContext()).setMessage("Could not set up the face detector!").show();
                 return;
