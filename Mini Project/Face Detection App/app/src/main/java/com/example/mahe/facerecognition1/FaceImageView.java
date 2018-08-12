@@ -37,23 +37,23 @@ public class FaceImageView extends android.support.v7.widget.AppCompatImageView{
         super(context);
     }
 
-
-
     @Override
+    //Convas can hold/host the draw calls.
+    //To draw it requires 4 Compenents --> Bitmap,Canavas,Paint and drawing Primitive.
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         Paint p = new Paint();
-
-
-
+        
+        //Use Canvas to draw on Image
         canvas.drawBitmap(image, 0, 0, p);
         Paint rectPaint = new Paint();
         rectPaint.setStrokeWidth(2);
         rectPaint.setColor(Color.BLUE);
         rectPaint.setStyle(Style.STROKE);
-
-
+        
+        
         for (int i=0; i < MAX_FACES; i++) {
+            //This RectF can holds the  4 Co-oridnates of rectangle like left,right,top,bottom
             RectF r = rects[i];
             if (r != null)
                 canvas.drawRect(r, rectPaint);
@@ -83,10 +83,10 @@ public class FaceImageView extends android.support.v7.widget.AppCompatImageView{
             Face face = faceList[i];
             Log.d("FaceDet", "Face ["+face+"]");
             if (face != null) {
-                Log.d("FaceDet", "Face ["+i+"] - Confidence ["+face.confidence()+"]");
+               // Log.d("FaceDet", "Face ["+i+"] - Confidence ["+face.confidence()+"]");
                 PointF pf = new PointF();
                 face.getMidPoint(pf);
-                Log.d("FaceDet", "\t Eyes distance ["+face.eyesDistance()+"] - Face midpoint ["+pf+"]");
+               // Log.d("FaceDet", "\t Eyes distance ["+face.eyesDistance()+"] - Face midpoint ["+pf+"]");
                 RectF r = new RectF();
                 r.left = pf.x - face.eyesDistance() / 2;
                 r.right = pf.x + face.eyesDistance() / 2;
