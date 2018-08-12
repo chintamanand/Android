@@ -43,9 +43,6 @@ public class MainActivity extends AppCompatActivity {
         tap=(Button)findViewById(R.id.button);
         iv=(ImageView)findViewById(R.id.imageView);
         //fiv=(FaceImageView)findViewById(R.id.imageView);
-
-
-
     }
     public void takeImageFromCamera(View view) {
         Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
@@ -60,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             //to store in External Storage we need to check the External Storage permission(for Writable)
             saveTempBitmap(mphoto);
 
-            Toast.makeText(getApplicationContext(),"Processing Image",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"Processing Image...",Toast.LENGTH_SHORT).show();
             //try
            // BitmapFactory.Options options = new BitmapFactory.Options();
             //options.inMutable=true;
@@ -68,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
             myRectPaint.setStrokeWidth(5);
             myRectPaint.setColor(Color.RED);
             myRectPaint.setStyle(Paint.Style.STROKE);
+		
             Bitmap tempBitmap = Bitmap.createBitmap(mphoto.getWidth(), mphoto.getHeight(), Bitmap.Config.RGB_565);
             Canvas tempCanvas = new Canvas(tempBitmap);
             tempCanvas.drawBitmap(mphoto, 0, 0, null);
